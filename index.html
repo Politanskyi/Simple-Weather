@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center">
+                <h4 class="title">Получаем прогноз погоды по API</h4>
+            </div>
+        </div>
+        <div class="row option-for-col">
+            <div class="input-field col s12">
+                <select name="city" id="choose_city">
+                    <option value="" disabled selected>Choose City</option>
+                    <option value="698740">Odessa</option>
+                    <option value="700569">Mykolaiv</option>
+                    <option value="703448">Kyiv</option>
+                    <option value="706483">Kharkiv</option>
+                    <option value="702569">Lutsk</option>
+                    <option value="702550">Lviv</option>
+                    <option value="710735">Chernihiv</option>
+                    <option value="703845">Kryvyy Rih</option>
+                    <option value="7046809">Rivne</option>
+                    <option value="710791">Cherkasy</option>
+                </select>
+                <label for="chose_city">Cities</label>
+            </div>
+            <div class="weather-position">
+                <div class="col first-day hoverable"></div>
+                <div class="col second-day hoverable"></div>
+                <div class="col third-day hoverable"></div>
+                <div class="col fourth-day hoverable"></div>
+                <div class="col five-day hoverable"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+html, body {
+    font-family: Roboto;
+}
+
+body {
+    background-image: linear-gradient(to bottom left, rgb(148, 156, 247), rgb(145, 150, 234), rgb(143, 144, 222), rgb(140, 137, 209), rgb(138, 131, 197), rgb(135, 125, 184), rgb(131, 123, 172), rgb(127, 121, 160), rgb(124, 119, 148), rgb(120, 116, 136), rgb(116, 114, 124), rgb(112, 112, 112));
+}
+
+.title {
+    color: #fff;
+}
+
+.container {
+    height: 100vh;
+}
+
+.weather-position {
+    display: none;
+}
+
+.add-style {
+    display: flex;
+    border: 2px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.option-for-col .col {
+    float: none;
+}
+
+.first-day,
+.second-day,
+.third-day,
+.fourth-day,
+.five-day {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+    border-radius: 5px;
+    transition: .2s;
+    cursor: pointer;
+    color: #fff ;
+}
+
+.first-day:hover,
+.second-day:hover,
+.third-day:hover,
+.fourth-day:hover,
+.five-day:hover {
+    transform: scale(1.03);
+}
+
+.week-day {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.temperature {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.weather {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.image {
+
+}
+
+.input-field>label {
+    color: #ececec;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.select-wrapper input.select-dropdown {
+    border-bottom: 1px solid #dbdbdb;
+    color: #fff;
+}
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid #fff;
+}
